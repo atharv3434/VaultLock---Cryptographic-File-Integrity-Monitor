@@ -8,3 +8,12 @@ Ensure you download the SQLite JDBC driver jar dependency (e.g., `sqlite-jdbc-3.
 ### 2. Compile Server Code
 ```bash
 javac App.java
+
+
+### 3. Run Application Server Node
+Bash
+# Windows
+java -cp ".;sqlite-jdbc-3.x.x.jar" App
+
+# Linux / Mac OS
+java -cp ".:sqlite-jdbc-3.x.x.jar" App
